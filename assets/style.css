@@ -1,8 +1,21 @@
+/*--------------------------- Color variations ----------------------*/
+/* Medium Layout: 1280px */
+/* Tablet Layout: 768px */
+/* Mobile Layout: 320px */
+/* Wide Mobile Layout: 480px */
+/*
+################
+               Start Common Page style
+################
+*/
+a {
+  text-decoration: none;
+}
+
 header
 {
-  background-color:#212529;
+  background-color:white;
   position: sticky;
-  z-index: 10;
   width: 100%;
 }
 
@@ -29,31 +42,334 @@ header
 {
   position: relative;
   background-color: white;
-  min-height: 100vh;
+  min-height: 12vh;
   background-size: cover;
   background-position: center;
-  padding: 50px 0 200px;
+  padding: 100px 0 160px;
 }
 
 .banner h1
 {
   margin: 0;
   padding: 0;
-  font-size: 3em;
+  font-size: 4em;
   font-weight: 700;
 }
 
 .banner p
 {
+  color: #888b98;
   margin: 1em 0 0;
-  line-height: 1.5em;
+  line-height: 2em;
   padding: 0;
   font-size: 1.2em;
 }
 
+.course
+{
+  width: 200px;
+  height: 60px;
+  font-size: 1.2em;
+  border: 0;
+  margin-top: 40 px;
+  padding: 12px 10px;
+  outline: none;
+  color: white;
+  background: linear-gradient(to right, #abdcff, #0396ff);
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 500ms ease-in-out;
+}
+
+.course:hover {
+  transition: all 500ms ease-in-out;
+  background: #0396ff;
+}
+
 .banner img
 {
-  height: 250px;
+  width: 100%;
   display: block;
-  margin: 0 auto;
+  margin: auto;
 }
+
+/*@media (max-width: 1280px)
+{
+  .banner .col-sm-8 {
+    width: 100%;
+  }
+  .banner .col-sm-4 {
+    width: 100%;
+  }
+  .banner img
+{
+  padding-top: 3em;
+}
+.banner
+{
+  padding: 130px 0 130px;
+}
+.banner h1
+{
+  font-size: 3em;
+}
+.banner p
+{
+  font-size: 1em;
+}
+}
+
+@media (max-width: 768px)
+{
+  
+  .banner .col-sm-8 {
+    width: 100%;
+    flex:1 0 0%
+  }
+  .banner .col-sm-4 {
+    width: 100%;
+    
+  }
+  .banner img
+  {
+    padding-top: 1em;
+  }
+  .banner
+{
+  padding: 20px 0 30px;
+}
+.banner h1
+{
+  font-size: 2.5em;
+}
+.banner p
+{
+  font-size: 1.2em;
+}
+}
+*/
+
+@media (max-width: 1200px)
+{
+  .banner .row 
+  {
+    margin: 50px 0;
+  }
+  .banner .col-sm-8 {
+    width: 100%;
+    flex:1 0 0%
+  }
+  .banner .col-sm-4 {
+    width: 100%;
+    
+  }
+  .banner img
+  {
+    padding-top: 1em;
+  }
+  .banner
+{
+  padding: 20px 0 30px;
+}
+.banner h1
+{
+  font-size: 2.5em;
+}
+.banner p
+{
+  line-height: 1.75em;
+  font-size: 1.0em;
+}
+.course
+{
+  width: 150px;
+  height: 40px;
+  font-size: 1em;
+  border: 0;
+  margin-top: 40 px;
+  padding: 9px 8px;
+  outline: none;
+  margin-top: 12px;
+  color: white;
+  background: linear-gradient(to right, #abdcff, #0396ff);
+  border-radius: 6px;
+  cursor: pointer;
+}
+}
+
+@media (max-width: 991px)
+{
+  .banner .row 
+  {
+    flex-direction: column-reverse;
+    margin-top: 30px;
+  }
+  .banner .col-sm-8 {
+    width: 100%;
+  }
+  .banner .col-sm-4 {
+    width: 100%;
+    
+  }
+  .banner
+{
+  padding: 20px 0 30px;
+}
+.banner h1
+{
+  text-align: center;
+  font-size: 2.5em;
+}
+.banner p
+{
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 1.0em;
+}
+
+.course
+{
+  width: 150px;
+  height: 40px;
+  font-size: 1em;
+  border: 0;
+  margin-top: 40 px;
+  padding: 9px 8px;
+  outline: none;
+  margin-top: 12px;
+  color: white;
+  background: linear-gradient(to right, #abdcff, #0396ff);
+  border-radius: 6px;
+  cursor: pointer;
+}
+}
+
+/* Product card */
+.courses h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 3em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.courses .descriptiontext {
+  color: #888b98;
+  margin: 1em 0 0;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.courses .d-block {
+  max-height: 80px;
+}
+
+.courses .card {
+  margin-top: 30px !important;
+  border: none;
+  -webkit-box-shadow: 4px 12px 19px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 12px 19px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 12px 19px 0px rgba(34, 60, 80, 0.2);
+  outline: none;
+  background-color: white;
+  border-radius: 20px;
+  transition: transform .3s;
+}
+.courses .card:hover{
+  transform: translateY(-15px);
+  transition: transform .3s;
+}
+.courses .text1{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  color: #888b98;
+}
+.courses .info{
+  line-height: 20px;
+}
+
+.pythoncost span{
+  color: #59b2d7;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.python {
+  background: #59b2d7;
+  color: white;
+  text-decoration: none;
+}
+
+.javacost span{
+  color: #f2693a;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.java {
+  background: #f2693a;
+  color: white;
+  text-decoration: none;
+}
+
+.webcost span{
+  color: #c486a5;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.web {
+  background: #c486a5;
+  color: white;
+  text-decoration: none;
+}
+
+.cpluscost span{
+  color: #3a4bf2;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cplus {
+  background: #3a4bf2;
+  color: white;
+  text-decoration: none;
+}
+
+.gamecost span{
+  color: #8c4feb;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.game {
+  background: #8c4feb;
+  color: white;
+  text-decoration: none;
+}
+
+.androidcost span{
+  color: #60c264;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.android {
+  background: #60c264;
+  color: white;
+  text-decoration: none;
+}
+
+.python:hover, .java:hover, .web:hover, .cplus:hover, .game:hover, .android:hover {
+  opacity: .8;
+}
+
+.cursor {
+  text-decoration: none;
+  cursor: painter;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+/* Product card */
