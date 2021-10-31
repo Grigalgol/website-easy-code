@@ -64,34 +64,66 @@ header
   padding: 0;
   font-size: 1.2em;
 }
-
 .course
 {
   width: 200px;
   height: 60px;
-  font-size: 1.2em;
-  border: 0;
-  margin-top: 40 px;
   padding: 12px 10px;
-  outline: none;
-  color: white;
-  background: linear-gradient(to right, #abdcff, #0396ff);
+  margin-top: 40px;
   border-radius: 6px;
   cursor: pointer;
   margin-top: 20px;
   transition: all 500ms ease-in-out;
+  background: linear-gradient(to right, #abdcff, #0396ff);
+  text-align: center;
 }
-
+.btn {
+  transition: 0s;
+  color: white;
+  font-size: 18px;
+  outline: none;
+  border: 0;
+  padding: 0;
+  padding-top: 5px;
+}
+.btn:hover {
+  color: white;
+}
 .course:hover {
   transition: all 500ms ease-in-out;
   background: #0396ff;
+  color: white;
 }
-
 .banner img
 {
   width: 100%;
   display: block;
   margin: auto;
+}
+
+@media (max-width:1182px) {
+  .btn {
+    padding-top: 0px;
+  }
+}
+
+@media (max-width:980px) {
+  .text1 {
+    width: 50%;
+  }
+}
+
+@media (max-width:990px) {
+  .course {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width:575px) {
+  .banner img {
+    width: 350px;
+  }
 }
 
 /*@media (max-width: 1280px)
@@ -122,14 +154,14 @@ header
 
 @media (max-width: 768px)
 {
-  
+
   .banner .col-sm-8 {
     width: 100%;
     flex:1 0 0%
   }
   .banner .col-sm-4 {
     width: 100%;
-    
+
   }
   .banner img
   {
@@ -152,7 +184,7 @@ header
 
 @media (max-width: 1200px)
 {
-  .banner .row 
+  .banner .row
   {
     margin: 50px 0;
   }
@@ -162,7 +194,7 @@ header
   }
   .banner .col-sm-4 {
     width: 100%;
-    
+
   }
   .banner img
   {
@@ -200,7 +232,7 @@ header
 
 @media (max-width: 991px)
 {
-  .banner .row 
+  .banner .row
   {
     flex-direction: column-reverse;
     margin-top: 30px;
@@ -210,7 +242,7 @@ header
   }
   .banner .col-sm-4 {
     width: 100%;
-    
+
   }
   .banner
 {
@@ -285,9 +317,16 @@ header
   padding-right: 20px;
   font-size: 15px;
   color: #888b98;
+  max-width: 275px;
+  width: 100%;
+
 }
 .courses .info{
   line-height: 20px;
+}
+.text1 {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pythoncost span{
