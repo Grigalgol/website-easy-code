@@ -45,7 +45,7 @@ header
   min-height: 12vh;
   background-size: cover;
   background-position: center;
-  padding: 100px 0 160px;
+  padding: 100px 0 130px;
 }
 
 .banner h1
@@ -213,6 +213,10 @@ header
   line-height: 1.75em;
   font-size: 1.0em;
 }
+.banner li span
+{
+  font-size: 1.0em;
+}
 .course
 {
   width: 150px;
@@ -260,6 +264,12 @@ header
   font-size: 1.0em;
 }
 
+.banner li span
+{
+  text-align: center;
+  font-size: 1.0em;
+}
+
 .course
 {
   width: 150px;
@@ -278,18 +288,11 @@ header
 }
 
 /* Product card */
-.courses h1 {
-  margin: 0;
-  padding: 0;
-  font-size: 3em;
-  font-weight: 600;
-  text-align: center;
-}
+
+
 
 .courses .descriptiontext {
   color: #888b98;
-  margin: 1em 0 0;
-  font-size: 1.2em;
   text-align: center;
 }
 
@@ -412,3 +415,27 @@ header
   border-bottom-right-radius: 20px;
 }
 /* Product card */
+
+.banner li span {
+  color: #888b98;
+  margin: 1em 0 0;
+  line-height: 1.5em;
+  padding: 0;
+  font-size: 1.2em;
+}
+
+.banner li {
+  color: #0396ff;
+  line-height: 1.5em;
+  margin-top: 15px;
+}
+
+.btn3 {
+  background: #0396ff;
+  color: white;
+  outline: none;
+  border: 0;
+  width: 200px;
+  height: 50px;
+  font-size: 1.3em;
+}
