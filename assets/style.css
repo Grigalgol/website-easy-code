@@ -68,7 +68,7 @@ header
 {
   width: 200px;
   height: 60px;
-  padding: 12px 10px;
+  padding: 15px 10px;
   margin-top: 40px;
   border-radius: 6px;
   cursor: pointer;
@@ -76,19 +76,12 @@ header
   transition: all 500ms ease-in-out;
   background: linear-gradient(to right, #abdcff, #0396ff);
   text-align: center;
-}
-.btn {
   transition: 0s;
   color: white;
   font-size: 18px;
-  outline: none;
-  border: 0;
-  padding: 0;
-  padding-top: 5px;
 }
-.btn:hover {
-  color: white;
-}
+
+
 .course:hover {
   transition: all 500ms ease-in-out;
   background: #0396ff;
@@ -126,62 +119,6 @@ header
   }
 }
 
-/*@media (max-width: 1280px)
-{
-  .banner .col-sm-8 {
-    width: 100%;
-  }
-  .banner .col-sm-4 {
-    width: 100%;
-  }
-  .banner img
-{
-  padding-top: 3em;
-}
-.banner
-{
-  padding: 130px 0 130px;
-}
-.banner h1
-{
-  font-size: 3em;
-}
-.banner p
-{
-  font-size: 1em;
-}
-}
-
-@media (max-width: 768px)
-{
-
-  .banner .col-sm-8 {
-    width: 100%;
-    flex:1 0 0%
-  }
-  .banner .col-sm-4 {
-    width: 100%;
-
-  }
-  .banner img
-  {
-    padding-top: 1em;
-  }
-  .banner
-{
-  padding: 20px 0 30px;
-}
-.banner h1
-{
-  font-size: 2.5em;
-}
-.banner p
-{
-  font-size: 1.2em;
-}
-}
-*/
-
 @media (max-width: 1200px)
 {
   .banner .row
@@ -213,6 +150,7 @@ header
   line-height: 1.75em;
   font-size: 1.0em;
 }
+
 .banner li span
 {
   font-size: 1.0em;
@@ -263,6 +201,7 @@ header
   line-height: 1.5em;
   font-size: 1.0em;
 }
+
 
 .banner li span
 {
