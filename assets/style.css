@@ -1,13 +1,3 @@
-/*--------------------------- Color variations ----------------------*/
-/* Medium Layout: 1280px */
-/* Tablet Layout: 768px */
-/* Mobile Layout: 320px */
-/* Wide Mobile Layout: 480px */
-/*
-################
-               Start Common Page style
-################
-*/
 a {
   text-decoration: none;
 }
@@ -223,6 +213,28 @@ header
   background: linear-gradient(to right, #abdcff, #0396ff);
   border-radius: 6px;
   cursor: pointer;
+}
+
+.career .col-sm-6{
+  width: 100%;
+}
+.career .row {
+  flex-direction: column-reverse;
+}
+
+.career h2
+{
+  text-align: center;
+}
+
+.career h4
+{
+  text-align: center;
+}
+
+.career p
+{
+  text-align: center;
 }
 }
 
@@ -507,3 +519,7 @@ footer .wave#wave4
     background-position-x: 1000px;
   }
 }
+
+.career p{
+  color: #888b98;
+} 
