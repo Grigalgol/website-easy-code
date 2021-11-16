@@ -71,11 +71,6 @@ header
   font-size: 18px;
 }
 
-.course:hover {
-  transition: all 500ms ease-in-out;
-  background: #0396ff;
-}
-
 .banner img
 {
   width: 100%;
@@ -552,4 +547,10 @@ footer .wave#wave4
 
 .teamcards .box:hover .icons {
   opacity: 1;
+}
+
+.mentor img {
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 40px;
 }
