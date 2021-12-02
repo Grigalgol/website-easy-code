@@ -554,3 +554,10 @@ footer .wave#wave4
   margin-left: auto;
   border-radius: 40px;
 }
+
+@media (max-width: 374px) {
+  .banner img {
+    width: 250px;
+  }
+  
+}
